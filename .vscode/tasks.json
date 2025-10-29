@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cmake-configure",
+            "type": "process",
+            "command": "C:/Program Files/CMake/bin/cmake.exe",
+            "args": [
+                "-S", ".",
+                "-B", "build",
+                "-G", "MinGW Makefiles",
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DCMAKE_C_COMPILER=D:/mingw64/bin/gcc.exe",
+                "-DCMAKE_CXX_COMPILER=D:/mingw64/bin/g++.exe",
+                "-DOpenCV_DIR=D:/opencv/install/x64/mingw/lib"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "D:/mingw64/bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "cmake-build",
+            "type": "process",
+            "command": "C:/Program Files/CMake/bin/cmake.exe",
+            "args": [
+                "--build", "build",
+                "--config", "Release"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "D:/mingw64/bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc",
+            "dependsOn": [
+                "cmake-configure"
+            ]
+        }
+    ]
+}

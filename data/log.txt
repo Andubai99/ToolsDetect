@@ -1,0 +1,33 @@
+[2025-10-24 18:14:12] User data loaded successfully.
+[2025-10-24 18:14:12] WARNING: Tool '#' ROI is outside of template image bounds and will be ignored.
+[2025-10-24 18:14:19] User data loaded successfully.
+[2025-10-24 18:14:19] WARNING: Tool '#' ROI is outside of template image bounds and will be ignored.
+[2025-10-24 18:14:52] User data loaded successfully.
+[2025-10-24 18:14:52] WARNING: Tool '#' ROI is outside of template image bounds and will be ignored.
+[2025-10-24 18:14:56] User data loaded successfully.
+[2025-10-24 18:14:56] WARNING: Tool '#' ROI is outside of template image bounds and will be ignored.
+[2025-10-24 18:15:07] User data loaded successfully.
+[2025-10-24 18:15:07] WARNING: Tool '#' ROI is outside of template image bounds and will be ignored.
+[2025-10-24 18:15:35] User data loaded successfully.
+[2025-10-24 18:15:36] WARNING: Tool '#' ROI is outside of template image bounds and will be ignored.
+[2025-10-24 18:22:59] User data loaded successfully.
+[2025-10-24 18:22:59] Tool configuration loaded. Found 4 tools.
+[2025-10-24 18:22:59] System started.
+[2025-10-24 18:23:07] Authentication failed for user 'admin'.
+[2025-10-24 18:23:13] User 'admin' authenticated successfully.
+[2025-10-24 18:42:28] User data loaded successfully.
+[2025-10-24 18:42:28] Tool configuration loaded. Found 4 tools.
+[2025-10-24 18:42:28] System started.
+[2025-10-24 18:42:39] User 'admin' authenticated successfully.
+[2025-10-24 18:43:07] User data loaded successfully.
+[2025-10-24 18:43:07] Tool configuration loaded. Found 4 tools.
+[2025-10-24 18:43:07] System started.
+[2025-10-24 18:43:10] User 'admin' authenticated successfully.
+[2025-10-24 19:10:45] User data loaded successfully.
+[2025-10-24 19:10:45] Tool configuration loaded. Found 3 tools.
+[2025-10-24 19:10:45] System started.
+[2025-10-24 19:10:50] User 'admin' authenticated successfully.
+[2025-10-24 19:19:24] User data loaded successfully.
+[2025-10-24 19:19:24] Tool configuration loaded. Found 3 tools.
+[2025-10-24 19:19:24] System started.
+[2025-10-24 19:19:31] User 'admin' authenticated successfully.

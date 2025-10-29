@@ -1,0 +1,3 @@
+F:/ToolsDetect/build/CMakeFiles/toolsdetect_test.dir
+F:/ToolsDetect/build/CMakeFiles/edit_cache.dir
+F:/ToolsDetect/build/CMakeFiles/rebuild_cache.dir

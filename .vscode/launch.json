@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug ToolsDetect (MinGW)",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/build/toolsdetect_test.exe",
+            "args": [],
+            "stopAtEntry": false,
+
+            "cwd": "${workspaceFolder}",
+
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:/opencv/install/x64/mingw/bin;D:/mingw64/bin;${env:PATH}"
+                }
+            ],
+
+            "externalConsole": true,
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/mingw64/bin/gdb.exe",
+
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

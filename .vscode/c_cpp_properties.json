@@ -1,0 +1,21 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "MinGW",
+            "compilerPath": "D:/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "D:/opencv/install/include",
+                "D:/opencv/install/include/opencv2"
+            ],
+            "defines": [
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ]
+}
