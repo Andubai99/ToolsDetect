@@ -8,8 +8,8 @@
 #include <ctime>
 #include <iomanip>
 
-#include "vision_pipeline.h"      // 旧的差分流程里用到 ToolBlob。如果你暂时不想用老方案，可以先保留这个 include，不会出错。
-#include "inventory_compare.h"    // 新的 YOLO式库存差异结构
+#include "vision_pipeline.h"      // 旧的差分法还保留着，没坏处
+#include "inventory_compare.h"    // InventoryDelta 定义，含 classCountDiff
 
 class Logger {
 public:
@@ -17,16 +17,17 @@ public:
         : logPath_(logPath)
     {}
 
-    // 记录用户登录行为
+    // 登录记录
     void logLogin(const std::string& username) {
         std::ostringstream oss;
         oss << timestamp()
-            << " LOGIN user=\"" << username << "\"";
+            << " LOGIN"
+            << " user=\"" << username << "\"";
         appendLine(oss.str());
         std::cout << oss.str() << "\n";
     }
 
-    // 旧差分法：记录每个检测到的变化区域（ToolBlob）
+    // 旧方案：差分出来的目标区域（保留兼容性，后续可能不再用）
     void logToolEvent(const std::string& username,
                       const std::vector<ToolBlob>& blobs) {
         for (size_t i = 0; i < blobs.size(); ++i) {
@@ -36,7 +37,8 @@ public:
 
             std::ostringstream oss;
             oss << timestamp()
-                << " TOOL_CHANGE user=\"" << username << "\""
+                << " TOOL_CHANGE"
+                << " user=\"" << username << "\""
                 << " id=" << i
                 << " cx=" << c.x
                 << " cy=" << c.y
@@ -51,22 +53,33 @@ public:
         if (blobs.empty()) {
             std::ostringstream oss;
             oss << timestamp()
-                << " TOOL_CHANGE user=\"" << username << "\""
+                << " TOOL_CHANGE"
+                << " user=\"" << username << "\""
                 << " no_change";
             appendLine(oss.str());
             std::cout << oss.str() << "\n";
         }
     }
 
-    // ✅ 新增：YOLO式库存差异日志
-    // 把 compareInventory() 得到的 InventoryDelta 结果落库
-    // 例子：
-    // [2025-10-26 15:35:12] INVENTORY user="alice" pliers=-1 screwdriver=0 wrench=+1
+    // ✅ 第二周升级后的核心日志接口
+    //
+    // username: 当前操作用户
+    // delta:    compareInventory() 的结果，包含每个类别的count差
+    // sessionId: "YYYY-MM-DD#N" 例如 "2025-10-29#3" -> 表示2025-10-29当天第3次关柜检测
+    // durationMs: 这一轮识别+比对+记录总耗时(毫秒)
+    //
+    // 日志示例：
+    // [2025-10-29 14:03:55] INVENTORY user="alice" session="2025-10-29#3" duration_ms=1432 pliers=-1 screwdriver=0
     void logInventoryDelta(const std::string& username,
-                           const InventoryDelta& delta) {
+                           const InventoryDelta& delta,
+                           const std::string& sessionId,
+                           long long durationMs) {
         std::ostringstream oss;
         oss << timestamp()
-            << " INVENTORY user=\"" << username << "\"";
+            << " INVENTORY"
+            << " user=\"" << username << "\""
+            << " session=\"" << sessionId << "\""
+            << " duration_ms=" << durationMs;
 
         for (const auto& kv : delta.classCountDiff) {
             const std::string& cls = kv.first;
@@ -81,7 +94,7 @@ public:
 private:
     std::string logPath_;
 
-    // 生成类似 [2025-10-26 15:32:07]
+    // 时间戳，例如 [2025-10-29 14:03:55]
     std::string timestamp() const {
         auto now = std::chrono::system_clock::now();
         std::time_t t  = std::chrono::system_clock::to_time_t(now);
@@ -97,7 +110,7 @@ private:
         return oss.str();
     }
 
-    // 统一写入文件和追加换行
+    // 统一文件落盘
     void appendLine(const std::string& line) const {
         std::ofstream fout(logPath_, std::ios::app);
         if (!fout.is_open()) {
