@@ -26,3 +26,8 @@
 [2025-10-29 14:08:54] INVENTORY user="alice" session="2025-10-29#6" duration_ms=41 pliers=0 screwdriver=0
 [2025-10-29 14:08:55] INVENTORY user="alice" session="2025-10-29#7" duration_ms=41 pliers=0 screwdriver=0
 [2025-10-29 14:08:55] INVENTORY user="alice" session="2025-10-29#8" duration_ms=41 pliers=0 screwdriver=0
+[2025-10-29 14:23:36] LOGIN user="alice"
+[2025-10-29 14:23:36] INVENTORY user="alice" session="2025-10-29#1" duration_ms=41 alarm=NO pliers=0 screwdriver=0
+[2025-10-29 14:23:46] INVENTORY user="alice" session="2025-10-29#2" duration_ms=41 alarm=NO pliers=0 screwdriver=0
+[2025-11-02 16:39:06] LOGIN user="alice"
+[2025-11-02 16:39:06] INVENTORY user="alice" session="2025-11-02#1" duration_ms=71 alarm=NO pliers=0 screwdriver=0

@@ -246,4 +246,5 @@ CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj: \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
+ F:\ToolsDetect\src\alert.h

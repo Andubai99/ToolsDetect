@@ -7,12 +7,13 @@
 #include <sstream>
 #include <iomanip>
 
-#include "auth.h"                // AuthManager: loadUsers(), authenticate()
-#include "logger.h"              // Logger with logInventoryDelta(session,durationMs)
+#include "auth.h"                // AuthManager
+#include "logger.h"              // Logger (now logs alarm info)
 #include "detector.h"            // runYoloDetect()
 #include "inventory_compare.h"   // compareInventory()
+#include "alert.h"               // evaluateAlarm(), raiseAlarmToConsole()
 
-// --- 摄像头采集占位层 (第2周先保持读取文件，第6周会改成真正拍照) ---
+// 抽象的图像采集接口（第2周引入、第6周会接相机）
 static cv::Mat captureBefore() {
     return cv::imread("test_before.png");
 }
@@ -20,7 +21,7 @@ static cv::Mat captureAfter() {
     return cv::imread("test_after.png");
 }
 
-// --- 获取"YYYY-MM-DD"的日期字符串，用于session按天归档 ---
+// 获取 "YYYY-MM-DD"
 static std::string getCurrentDayString() {
     auto now = std::chrono::system_clock::now();
     std::time_t t  = std::chrono::system_clock::to_time_t(now);
@@ -36,11 +37,11 @@ static std::string getCurrentDayString() {
 }
 
 int main() {
-    std::cout << "=== ToolsDetect System (Week 2 baseline) ===\n";
+    std::cout << "=== ToolsDetect System (Week 3 baseline with ALARM) ===\n";
 
-    // 1. 登录 & 用户管理
+    // ------------------ 登录 ------------------
     AuthManager auth;
-    if (!auth.loadUsers("users.txt")) {  // 读取本地用户文件，支持离线运行 :contentReference[oaicite:4]{index=4}
+    if (!auth.loadUsers("users.txt")) {
         std::cerr << "[FATAL] Failed to load users.txt. Exiting.\n";
         std::cout << "Press ENTER to exit.\n";
         std::cin.get();
@@ -55,7 +56,7 @@ int main() {
     std::cout << "Password: ";
     std::cin >> password;
 
-    if (!auth.authenticate(username, password)) {  // 用户身份绑定，后续日志可追责 :contentReference[oaicite:5]{index=5}
+    if (!auth.authenticate(username, password)) {
         std::cerr << "[ERROR] Authentication failed for user '" << username << "'.\n";
         std::cout << "Press ENTER to exit.\n";
         std::cin.ignore();
@@ -64,38 +65,33 @@ int main() {
     }
 
     std::cout << "[INFO] Login success. Welcome, " << username << "!\n";
-    // 清掉缓冲，避免后面 getline() 直接吃到换行
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // 清掉缓冲
 
-    // 2. 初始化日志器
     Logger logger("log.txt");
     logger.logLogin(username);
 
-    // 用于生成“某年某月某日第x次开柜”
+    // sessionId 按天计数：YYYY-MM-DD#N
     std::string currentDay = getCurrentDayString();
     int dailyCounter = 0;
 
-    // 3. 多轮检测循环（每轮 = 一次开柜→关柜事件）
+    // ------------------ 循环，一轮=一次开柜检查 ------------------
     while (true) {
         std::cout << "\n--- New inventory check session ---\n";
 
-        // ----- 会话计数：计算今天第几次 -----
+        // 计算当天第几次
         std::string today = getCurrentDayString();
         if (today != currentDay) {
-            // 跨天了，从1重新计数
             currentDay = today;
             dailyCounter = 1;
         } else {
-            // 同一天，+1
             dailyCounter += 1;
         }
-        // 形如 "2025-10-29#3"
         std::string sessionId = currentDay + "#" + std::to_string(dailyCounter);
 
-        // ----- 性能计时：一轮识别总耗时 -----
+        // 性能计时开始
         auto t_start = std::chrono::high_resolution_clock::now();
 
-        // 3.1 抓取 before / after 图像
+        // 采集图像
         cv::Mat img_before = captureBefore();
         cv::Mat img_after  = captureAfter();
 
@@ -105,20 +101,26 @@ int main() {
             break;
         }
 
-        // 3.2 运行检测（当前是占位，后面会接真正的YOLO推理）
+        // 模型检测（当前还是占位，用runYoloDetect）
         DetectionResult det_before = runYoloDetect(img_before);
         DetectionResult det_after  = runYoloDetect(img_after);
 
-        // 3.3 生成库存差异
+        // 盘点差异
         InventoryDelta delta = compareInventory(det_before, det_after);
 
-        // 3.4 打印本轮差异到控制台
+        // 告警判断
+        AlarmInfo alarmInfo = evaluateAlarm(delta);
+
+        // 如果有告警，立刻“喊出来”
+        raiseAlarmToConsole(alarmInfo, sessionId, username);
+
+        // 打印差异到控制台
         std::cout << "[INFO] Delta (after - before):\n";
         for (const auto& kv : delta.classCountDiff) {
             std::cout << "  " << kv.first << " -> " << kv.second << "\n";
         }
 
-        // ----- 性能计时结束 -----
+        // 性能计时结束
         auto t_end = std::chrono::high_resolution_clock::now();
         auto durationMs =
             std::chrono::duration_cast<std::chrono::milliseconds>(t_end - t_start).count();
@@ -126,10 +128,10 @@ int main() {
         std::cout << "[PERF] Session " << sessionId
                   << " took " << durationMs << " ms\n";
 
-        // 3.5 记录日志（含 user / session 当天第几次 / 耗时 / 差异）
-        logger.logInventoryDelta(username, delta, sessionId, durationMs);
+        // 写日志（包含告警信息、sessionId、耗时、责任人）
+        logger.logInventoryDelta(username, delta, sessionId, durationMs, alarmInfo);
 
-        // 3.6 显示视觉结果（after图上叠检测框）
+        // 可视化 after（检测框）
         cv::Mat vis_after = img_after.clone();
         for (const auto& obj : det_after.objects) {
             cv::rectangle(vis_after, obj.bbox, cv::Scalar(0,255,0), 2);
@@ -144,12 +146,19 @@ int main() {
             );
         }
 
+        // 如果有告警，可以在窗口标题上也打标记
+        std::string afterWindowTitle = "After Snapshot + Detections";
+        if (alarmInfo.triggered) {
+            afterWindowTitle += " [ALARM!]";
+        }
+
         cv::imshow("Before Snapshot", img_before);
-        cv::imshow("After Snapshot + Detections", vis_after);
+        cv::imshow(afterWindowTitle, vis_after);
+
         std::cout << "Press any key in the image window to continue...\n";
         cv::waitKey(0);
 
-        // 3.7 是否继续下一次柜门操作// 按回车 = 模拟一次柜门关闭触发检测
+        // 下一轮 or 退出
         std::cout << "Press ENTER for next round, or type q then ENTER to quit: ";
         std::string cmd;
         if (!std::getline(std::cin, cmd)) {

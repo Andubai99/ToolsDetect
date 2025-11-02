@@ -8,8 +8,9 @@
 #include <ctime>
 #include <iomanip>
 
-#include "vision_pipeline.h"      // 旧的差分法还保留着，没坏处
-#include "inventory_compare.h"    // InventoryDelta 定义，含 classCountDiff
+#include "vision_pipeline.h"
+#include "inventory_compare.h"
+#include "alert.h" // <-- 新增
 
 class Logger {
 public:
@@ -17,7 +18,6 @@ public:
         : logPath_(logPath)
     {}
 
-    // 登录记录
     void logLogin(const std::string& username) {
         std::ostringstream oss;
         oss << timestamp()
@@ -27,7 +27,6 @@ public:
         std::cout << oss.str() << "\n";
     }
 
-    // 旧方案：差分出来的目标区域（保留兼容性，后续可能不再用）
     void logToolEvent(const std::string& username,
                       const std::vector<ToolBlob>& blobs) {
         for (size_t i = 0; i < blobs.size(); ++i) {
@@ -61,26 +60,35 @@ public:
         }
     }
 
-    // ✅ 第二周升级后的核心日志接口
+    // 第三周增强版：
+    //  - 记录报警状态 alarm="YES"/"NO"
+    //  - 若YES, 附上报警原因串
     //
-    // username: 当前操作用户
-    // delta:    compareInventory() 的结果，包含每个类别的count差
-    // sessionId: "YYYY-MM-DD#N" 例如 "2025-10-29#3" -> 表示2025-10-29当天第3次关柜检测
-    // durationMs: 这一轮识别+比对+记录总耗时(毫秒)
-    //
-    // 日志示例：
-    // [2025-10-29 14:03:55] INVENTORY user="alice" session="2025-10-29#3" duration_ms=1432 pliers=-1 screwdriver=0
     void logInventoryDelta(const std::string& username,
                            const InventoryDelta& delta,
                            const std::string& sessionId,
-                           long long durationMs) {
+                           long long durationMs,
+                           const AlarmInfo& alarmInfo)
+    {
         std::ostringstream oss;
         oss << timestamp()
             << " INVENTORY"
             << " user=\"" << username << "\""
             << " session=\"" << sessionId << "\""
-            << " duration_ms=" << durationMs;
+            << " duration_ms=" << durationMs
+            << " alarm=" << (alarmInfo.triggered ? "YES" : "NO");
 
+        // 报警详细原因
+        if (alarmInfo.triggered && !alarmInfo.messages.empty()) {
+            oss << " alarm_reasons=\"";
+            for (size_t i = 0; i < alarmInfo.messages.size(); ++i) {
+                if (i > 0) oss << "; ";
+                oss << alarmInfo.messages[i];
+            }
+            oss << "\"";
+        }
+
+        // 差异明细
         for (const auto& kv : delta.classCountDiff) {
             const std::string& cls = kv.first;
             int diff = kv.second;
@@ -94,7 +102,6 @@ public:
 private:
     std::string logPath_;
 
-    // 时间戳，例如 [2025-10-29 14:03:55]
     std::string timestamp() const {
         auto now = std::chrono::system_clock::now();
         std::time_t t  = std::chrono::system_clock::to_time_t(now);
@@ -110,7 +117,6 @@ private:
         return oss.str();
     }
 
-    // 统一文件落盘
     void appendLine(const std::string& line) const {
         std::ofstream fout(logPath_, std::ios::app);
         if (!fout.is_open()) {
