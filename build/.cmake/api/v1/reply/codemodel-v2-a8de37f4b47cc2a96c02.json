@@ -6,29 +6,36 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "OnnxRuntimeImported::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OnnxRuntimeImported-Release-d0d451a355452aa41562.json",
+					"name" : "OnnxRuntimeImported",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "opencv_core::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-opencv_core-Debug-fc6b11ca0655b11fdc2c.json",
+					"jsonFile" : "target-opencv_core-Release-19d363ee12937ac9cbdb.json",
 					"name" : "opencv_core",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "opencv_highgui::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-opencv_highgui-Debug-7056f309397568740bbe.json",
+					"jsonFile" : "target-opencv_highgui-Release-94a1fff3c522c56414fb.json",
 					"name" : "opencv_highgui",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "opencv_imgcodecs::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-opencv_imgcodecs-Debug-12fe3243271a94732009.json",
+					"jsonFile" : "target-opencv_imgcodecs-Release-2d879e0657aedfe34520.json",
 					"name" : "opencv_imgcodecs",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "opencv_imgproc::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-opencv_imgproc-Debug-9f4786b44780658fb0a9.json",
+					"jsonFile" : "target-opencv_imgproc-Release-c87bd53b5743814059a6.json",
 					"name" : "opencv_imgproc",
 					"projectIndex" : 0
 				}
@@ -41,10 +48,11 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -57,7 +65,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -66,7 +74,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -84,7 +93,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "toolsdetect_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-toolsdetect_test-Debug-e5dcb368e771e6a26a87.json",
+					"jsonFile" : "target-toolsdetect_test-Release-490517fd68902b8113d6.json",
 					"name" : "toolsdetect_test",
 					"projectIndex" : 0
 				}

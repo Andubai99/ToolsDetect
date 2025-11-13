@@ -248,6 +248,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/yoloinfer.obj: src/yoloinfer.cpp.obj
+.PHONY : src/yoloinfer.obj
+
+# target to build an object file
+src/yoloinfer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj
+.PHONY : src/yoloinfer.cpp.obj
+
+src/yoloinfer.i: src/yoloinfer.cpp.i
+.PHONY : src/yoloinfer.i
+
+# target to preprocess a source file
+src/yoloinfer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.i
+.PHONY : src/yoloinfer.cpp.i
+
+src/yoloinfer.s: src/yoloinfer.cpp.s
+.PHONY : src/yoloinfer.s
+
+# target to generate assembly for a file
+src/yoloinfer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.s
+.PHONY : src/yoloinfer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +296,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/yoloinfer.obj
+	@echo ... src/yoloinfer.i
+	@echo ... src/yoloinfer.s
 .PHONY : help
 
 

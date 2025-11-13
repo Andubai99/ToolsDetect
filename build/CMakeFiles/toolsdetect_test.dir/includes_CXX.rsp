@@ -1,1 +1,1 @@
--isystem D:/opencv/install/include
+-IF:/ToolsDetect/src -isystem D:/opencv/install/include -isystem "E:/onnxruntime-win-x64-gpu-1.23.2/include"

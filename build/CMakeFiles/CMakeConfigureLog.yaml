@@ -50,6 +50,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -89,6 +90,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -146,6 +148,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -217,6 +220,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -252,6 +256,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -301,6 +306,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -336,6 +342,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -385,6 +392,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -420,6 +428,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -469,6 +478,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -504,6 +514,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -553,6 +564,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -588,6 +600,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -637,6 +650,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -672,6 +686,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -721,6 +736,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -756,6 +772,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -805,6 +822,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -840,6 +858,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -889,6 +908,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -924,6 +944,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -973,6 +994,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -1008,6 +1030,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -1057,6 +1080,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -1133,6 +1157,9 @@ events:
       - "C:/Program Files/CMake/bin/tapi.com"
       - "C:/Program Files/CMake/bin/tapi.exe"
       - "C:/Program Files/CMake/bin/tapi"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/tapi"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/tapi.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/tapi.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/tapi"
@@ -1178,6 +1205,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -1230,6 +1258,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -1306,6 +1335,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar-8.1.com"
       - "C:/Program Files/CMake/bin/gcc-ar-8.1.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-8.1"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-8.1.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-8.1.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-8.1"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar-8.1.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar-8.1.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar-8.1"
@@ -1393,6 +1425,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar-8.com"
       - "C:/Program Files/CMake/bin/gcc-ar-8.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-8"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-8.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-8.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar-8"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar-8.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar-8.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar-8"
@@ -1480,6 +1515,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ar8.com"
       - "C:/Program Files/CMake/bin/gcc-ar8.exe"
       - "C:/Program Files/CMake/bin/gcc-ar8"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar8.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar8.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ar8"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar8.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar8.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ar8"
@@ -1526,6 +1564,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -1578,6 +1617,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -1654,6 +1694,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib-8.1.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-8.1.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-8.1"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-8.1.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-8.1.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-8.1"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib-8.1.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib-8.1.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib-8.1"
@@ -1741,6 +1784,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib-8.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-8.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-8"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-8.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-8.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-8"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib-8.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib-8.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib-8"
@@ -1828,6 +1874,9 @@ events:
       - "C:/Program Files/CMake/bin/gcc-ranlib8.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib8.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib8"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib8.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib8.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib8"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib8.com"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib8.exe"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/gcc-ranlib8"
@@ -1874,6 +1923,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -1926,6 +1976,7 @@ events:
       - "D:/Anaconda3/Library/mingw-w64/bin/"
       - "E:/OpenCV-MinGW-Build-OpenCV-4.5.2-x64/x64/mingw/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/"
       - "C:/Users/86180/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/86180/AppData/Local/GitHubDesktop/bin/"
@@ -1973,6 +2024,7 @@ events:
         - "D:\\Anaconda3\\Library\\mingw-w64\\bin"
         - "E:\\OpenCV-MinGW-Build-OpenCV-4.5.2-x64\\x64\\mingw\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin"
         - "C:\\Users\\86180\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\86180\\AppData\\Local\\GitHubDesktop\\bin"
@@ -1994,8 +2046,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx"
-      binary: "F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx"
+      source: "F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu"
+      binary: "F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2005,21 +2057,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx'
+        Change Dir: 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1693f/fast
-        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1693f.dir\\build.make CMakeFiles/cmTC_1693f.dir/build
-        mingw32-make.exe[1]: Entering directory 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx'
-        Building CXX object CMakeFiles/cmTC_1693f.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b14a4/fast
+        D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b14a4.dir\\build.make CMakeFiles/cmTC_b14a4.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu'
+        Building CXX object CMakeFiles/cmTC_b14a4.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\86180\\AppData\\Local\\Temp\\ccCB1F9f.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\86180\\AppData\\Local\\Temp\\ccviryEf.s
         GNU C++14 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -2046,14 +2098,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\86180\\AppData\\Local\\Temp\\ccCB1F9f.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\86180\\AppData\\Local\\Temp\\ccviryEf.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-        Linking CXX executable cmTC_1693f.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1693f.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        Linking CXX executable cmTC_b14a4.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b14a4.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -2063,16 +2115,16 @@ events:
         gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
         COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../libexec/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;D:/mingw64/bin/../lib/gcc/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1693f.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccWxtNFq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_1693f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1693f.dir/objects.a --no-whole-archive --out-implib libcmTC_1693f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b14a4.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccR98dMq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b14a4.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b14a4.dir/objects.a --no-whole-archive --out-implib libcmTC_b14a4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
         collect2 version 8.1.0
-        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccWxtNFq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_1693f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1693f.dir/objects.a --no-whole-archive --out-implib libcmTC_1693f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccR98dMq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b14a4.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b14a4.dir/objects.a --no-whole-archive --out-implib libcmTC_b14a4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
         GNU ld (GNU Binutils) 2.30
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1693f.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1693f.dir/objects.a
-        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1693f.dir/objects.a @CMakeFiles\\cmTC_1693f.dir\\objects1.rsp
-        D:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_1693f.dir/objects.a -Wl,--no-whole-archive -o cmTC_1693f.exe -Wl,--out-implib,libcmTC_1693f.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make.exe[1]: Leaving directory 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b14a4.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b14a4.dir/objects.a
+        D:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_b14a4.dir/objects.a @CMakeFiles\\cmTC_b14a4.dir\\objects1.rsp
+        D:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_b14a4.dir/objects.a -Wl,--no-whole-archive -o cmTC_b14a4.exe -Wl,--out-implib,libcmTC_b14a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu'
         
       exitCode: 0
   -
@@ -2111,21 +2163,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx']
+        ignore line: [Change Dir: 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1693f/fast]
-        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1693f.dir\\build.make CMakeFiles/cmTC_1693f.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-b2t9tx']
-        ignore line: [Building CXX object CMakeFiles/cmTC_1693f.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b14a4/fast]
+        ignore line: [D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b14a4.dir\\build.make CMakeFiles/cmTC_b14a4.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'F:/ToolsDetect/build/CMakeFiles/CMakeScratch/TryCompile-lbhtmu']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b14a4.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\86180\\AppData\\Local\\Temp\\ccCB1F9f.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\86180\\AppData\\Local\\Temp\\ccviryEf.s]
         ignore line: [GNU C++14 (x86_64-posix-seh-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -2152,8 +2204,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 82f0c9785fd37a38ba7b7f8357369a82]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\86180\\AppData\\Local\\Temp\\ccCB1F9f.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\86180\\AppData\\Local\\Temp\\ccviryEf.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [D:/mingw64/bin/../libexec/gcc/]
@@ -2164,9 +2216,9 @@ events:
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1693f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [Linking CXX executable cmTC_1693f.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1693f.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b14a4.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking CXX executable cmTC_b14a4.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b14a4.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -2183,13 +2235,13 @@ events:
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1693f.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccWxtNFq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_1693f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1693f.dir/objects.a --no-whole-archive --out-implib libcmTC_1693f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b14a4.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        link line: [ D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccR98dMq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b14a4.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b14a4.dir/objects.a --no-whole-archive --out-implib libcmTC_b14a4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccWxtNFq.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccR98dMq.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2213,7 +2265,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_1693f.exe] ==> ignore
+          arg [cmTC_b14a4.exe] ==> ignore
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
           arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
@@ -2224,10 +2276,10 @@ events:
           arg [-LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_1693f.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_b14a4.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_1693f.dll.a] ==> ignore
+          arg [libcmTC_b14a4.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2253,7 +2305,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> obj [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
         ignore line: [collect2 version 8.1.0]
-        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccWxtNFq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_1693f.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1693f.dir/objects.a --no-whole-archive --out-implib libcmTC_1693f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=D:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\86180\\AppData\\Local\\Temp\\ccR98dMq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-seh-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b14a4.exe D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LD:/mingw64/bin/../lib/gcc -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LD:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_b14a4.dir/objects.a --no-whole-archive --out-implib libcmTC_b14a4.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
         linker tool for 'CXX': D:/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]

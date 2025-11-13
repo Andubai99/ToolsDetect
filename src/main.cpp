@@ -15,10 +15,10 @@
 
 // 抽象的图像采集接口（第2周引入、第6周会接相机）
 static cv::Mat captureBefore() {
-    return cv::imread("test_before.png");
+    return cv::imread("testimg.jpg");
 }
 static cv::Mat captureAfter() {
-    return cv::imread("test_after.png");
+    return cv::imread("testimg.jpg");
 }
 
 // 获取 "YYYY-MM-DD"
@@ -69,6 +69,29 @@ int main() {
 
     Logger logger("log.txt");
     logger.logLogin(username);
+
+    // ---- 单次示例：对项目目录下的 testimg.jpg 运行 ONNX 推理 ----
+    {
+        const std::string testImagePath = "testimg.jpg";
+        cv::Mat testImage = cv::imread(testImagePath);
+        if (testImage.empty()) {
+            std::cerr << "[WARN] Failed to load " << testImagePath
+                      << ". Skip single-image inference preview.\n";
+        } else {
+            std::cout << "[INFO] Running YOLO ONNX inference on " << testImagePath << "...\n";
+            DetectionResult previewResult = runYoloDetect(testImage);
+            if (previewResult.objects.empty()) {
+                std::cout << "[INFO] No detections found in " << testImagePath << ".\n";
+            } else {
+                for (const auto& obj : previewResult.objects) {
+                    std::cout << "  - " << obj.cls
+                              << " conf=" << obj.confidence
+                              << " bbox=(" << obj.bbox.x << "," << obj.bbox.y
+                              << "," << obj.bbox.width << "," << obj.bbox.height << ")\n";
+                }
+            }
+        }
+    }
 
     // sessionId 按天计数：YYYY-MM-DD#N
     std::string currentDay = getCurrentDayString();
@@ -140,9 +163,9 @@ int main() {
                 obj.cls + " " + std::to_string(obj.confidence),
                 cv::Point(obj.bbox.x, obj.bbox.y - 5),
                 cv::FONT_HERSHEY_SIMPLEX,
-                0.5,
+                2.0,
                 cv::Scalar(0,255,0),
-                1
+                4
             );
         }
 
@@ -152,7 +175,15 @@ int main() {
             afterWindowTitle += " [ALARM!]";
         }
 
+        const int windowWidth = 1920;
+        const int windowHeight = 1080;
+
+        cv::namedWindow("Before Snapshot", cv::WINDOW_NORMAL);
+        cv::resizeWindow("Before Snapshot", windowWidth, windowHeight);
         cv::imshow("Before Snapshot", img_before);
+
+        cv::namedWindow(afterWindowTitle, cv::WINDOW_NORMAL);
+        cv::resizeWindow(afterWindowTitle, windowWidth, windowHeight);
         cv::imshow(afterWindowTitle, vis_after);
 
         std::cout << "Press any key in the image window to continue...\n";

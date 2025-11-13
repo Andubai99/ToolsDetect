@@ -39,11 +39,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C++ compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "PATH",
 			"value" : "D:/mingw64/bin/g++.exe"
 		},
 		{
@@ -295,10 +295,10 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "PATH",
 			"value" : "D:/mingw64/bin/gcc.exe"
 		},
 		{
@@ -420,18 +420,6 @@
 			],
 			"type" : "STRING",
 			"value" : ""
-		},
-		{
-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "TRUE"
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -1202,15 +1190,63 @@
 			"value" : "[D:/opencv/install][found components: core imgcodecs imgproc highgui ][v4.8.0()]"
 		},
 		{
+			"name" : "ONNXRUNTIME_BIN_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "onnxruntime bin"
+				}
+			],
+			"type" : "PATH",
+			"value" : "E:/onnxruntime-win-x64-gpu-1.23.2/bin"
+		},
+		{
+			"name" : "ONNXRUNTIME_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "ONNX Runtime base dir"
+				}
+			],
+			"type" : "PATH",
+			"value" : "E:/onnxruntime-win-x64-gpu-1.23.2"
+		},
+		{
+			"name" : "ONNXRUNTIME_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "onnxruntime include"
+				}
+			],
+			"type" : "PATH",
+			"value" : "E:/onnxruntime-win-x64-gpu-1.23.2/include"
+		},
+		{
+			"name" : "ONNXRUNTIME_LIB_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "onnxruntime lib"
+				}
+			],
+			"type" : "PATH",
+			"value" : "E:/onnxruntime-win-x64-gpu-1.23.2/lib"
+		},
+		{
 			"name" : "OpenCV_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "OpenCV config dir"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "PATH",
 			"value" : "D:/opencv/install/x64/mingw/lib"
 		},
 		{
