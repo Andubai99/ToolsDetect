@@ -34,6 +34,7 @@ set(SRC_FILES
     src/logger.cpp
     src/detector.cpp
     src/inventory_compare.cpp
+    src/session_runner.cpp
     src/yoloinfer.cpp        # <-- 新增：推理实现文件
     src/yoloinfer.h         # <-- 新增：建议把头文件加入仓库
     # src/vision_pipeline.cpp

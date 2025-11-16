@@ -1,32 +1,44 @@
 [
 {
   "directory": "F:/ToolsDetect/build",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -g -o CMakeFiles\\toolsdetect_test.dir\\src\\main.cpp.obj -c F:\\ToolsDetect\\src\\main.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\main.cpp.obj -c F:\\ToolsDetect\\src\\main.cpp",
   "file": "F:/ToolsDetect/src/main.cpp",
   "output": "CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj"
 },
 {
   "directory": "F:/ToolsDetect/build",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -g -o CMakeFiles\\toolsdetect_test.dir\\src\\auth.cpp.obj -c F:\\ToolsDetect\\src\\auth.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\auth.cpp.obj -c F:\\ToolsDetect\\src\\auth.cpp",
   "file": "F:/ToolsDetect/src/auth.cpp",
   "output": "CMakeFiles/toolsdetect_test.dir/src/auth.cpp.obj"
 },
 {
   "directory": "F:/ToolsDetect/build",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -g -o CMakeFiles\\toolsdetect_test.dir\\src\\logger.cpp.obj -c F:\\ToolsDetect\\src\\logger.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\logger.cpp.obj -c F:\\ToolsDetect\\src\\logger.cpp",
   "file": "F:/ToolsDetect/src/logger.cpp",
   "output": "CMakeFiles/toolsdetect_test.dir/src/logger.cpp.obj"
 },
 {
   "directory": "F:/ToolsDetect/build",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -g -o CMakeFiles\\toolsdetect_test.dir\\src\\detector.cpp.obj -c F:\\ToolsDetect\\src\\detector.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\detector.cpp.obj -c F:\\ToolsDetect\\src\\detector.cpp",
   "file": "F:/ToolsDetect/src/detector.cpp",
   "output": "CMakeFiles/toolsdetect_test.dir/src/detector.cpp.obj"
 },
 {
   "directory": "F:/ToolsDetect/build",
-  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -g -o CMakeFiles\\toolsdetect_test.dir\\src\\inventory_compare.cpp.obj -c F:\\ToolsDetect\\src\\inventory_compare.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\inventory_compare.cpp.obj -c F:\\ToolsDetect\\src\\inventory_compare.cpp",
   "file": "F:/ToolsDetect/src/inventory_compare.cpp",
   "output": "CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.obj"
+},
+{
+  "directory": "F:/ToolsDetect/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\session_runner.cpp.obj -c F:\\ToolsDetect\\src\\session_runner.cpp",
+  "file": "F:/ToolsDetect/src/session_runner.cpp",
+  "output": "CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj"
+},
+{
+  "directory": "F:/ToolsDetect/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -o CMakeFiles\\toolsdetect_test.dir\\src\\yoloinfer.cpp.obj -c F:\\ToolsDetect\\src\\yoloinfer.cpp",
+  "file": "F:/ToolsDetect/src/yoloinfer.cpp",
+  "output": "CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj"
 }
 ]

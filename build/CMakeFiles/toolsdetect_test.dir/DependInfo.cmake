@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "F:/ToolsDetect/src/inventory_compare.cpp" "CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.obj" "gcc" "CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.obj.d"
   "F:/ToolsDetect/src/logger.cpp" "CMakeFiles/toolsdetect_test.dir/src/logger.cpp.obj" "gcc" "CMakeFiles/toolsdetect_test.dir/src/logger.cpp.obj.d"
   "F:/ToolsDetect/src/main.cpp" "CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj" "gcc" "CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj.d"
+  "F:/ToolsDetect/src/session_runner.cpp" "CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj" "gcc" "CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj.d"
   "F:/ToolsDetect/src/yoloinfer.cpp" "CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj" "gcc" "CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj.d"
   )
 

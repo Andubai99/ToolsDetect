@@ -259,14 +259,37 @@ std::vector<YoloResult> YoloInfer::infer(const cv::Mat& image) {
         return out_data[det_idx * elem_len + attr_idx];
     };
 
+    enum class BoxEncoding { XYWH, XYXY };
+    auto infer_box_encoding = [&](int64_t max_check) -> BoxEncoding {
+        int64_t sample_count = std::min<int64_t>(num_det, max_check);
+        if (sample_count <= 0) {
+            return BoxEncoding::XYWH;
+        }
+        int xyxy_votes = 0;
+        for (int64_t i = 0; i < sample_count; ++i) {
+            float x0 = read_attr(0, static_cast<int>(i));
+            float y0 = read_attr(1, static_cast<int>(i));
+            float x1 = read_attr(2, static_cast<int>(i));
+            float y1 = read_attr(3, static_cast<int>(i));
+            if (x1 >= x0 && y1 >= y0) {
+                xyxy_votes++;
+            }
+        }
+        if (xyxy_votes * 2 >= sample_count) {
+            return BoxEncoding::XYXY;
+        }
+        return BoxEncoding::XYWH;
+    };
+    BoxEncoding box_encoding = infer_box_encoding(64);
+
     std::vector<YoloResult> candidates;
     candidates.reserve(static_cast<size_t>(num_det));
 
     for (int64_t i = 0; i < num_det; ++i) {
-        float cx = read_attr(0, static_cast<int>(i));
-        float cy = read_attr(1, static_cast<int>(i));
-        float w  = read_attr(2, static_cast<int>(i));
-        float h  = read_attr(3, static_cast<int>(i));
+        float raw0 = read_attr(0, static_cast<int>(i));
+        float raw1 = read_attr(1, static_cast<int>(i));
+        float raw2 = read_attr(2, static_cast<int>(i));
+        float raw3 = read_attr(3, static_cast<int>(i));
         float obj_conf = has_objectness ? read_attr(4, static_cast<int>(i)) : 1.0f;
 
         float best_class_conf = 0.0f;
@@ -282,12 +305,35 @@ std::vector<YoloResult> YoloInfer::infer(const cv::Mat& image) {
         float final_conf = obj_conf * best_class_conf;
         if (final_conf < conf_thresh_) continue;
 
-        float x = cx - w * 0.5f;
-        float y = cy - h * 0.5f;
-        cv::Rect box(static_cast<int>(std::round(x)),
-                     static_cast<int>(std::round(y)),
-                     static_cast<int>(std::round(w)),
-                     static_cast<int>(std::round(h)));
+        cv::Rect box;
+        if (box_encoding == BoxEncoding::XYXY) {
+            float x0 = raw0;
+            float y0 = raw1;
+            float x1 = raw2;
+            float y1 = raw3;
+            if (x1 <= x0 || y1 <= y0) {
+                continue;
+            }
+            box = cv::Rect(
+                static_cast<int>(std::round(x0)),
+                static_cast<int>(std::round(y0)),
+                static_cast<int>(std::round(x1 - x0)),
+                static_cast<int>(std::round(y1 - y0))
+            );
+        } else {
+            float cx = raw0;
+            float cy = raw1;
+            float w  = raw2;
+            float h  = raw3;
+            float x = cx - w * 0.5f;
+            float y = cy - h * 0.5f;
+            box = cv::Rect(
+                static_cast<int>(std::round(x)),
+                static_cast<int>(std::round(y)),
+                static_cast<int>(std::round(w)),
+                static_cast<int>(std::round(h))
+            );
+        }
 
         cv::Rect box_orig = scale_coords_back(box, orig_w, orig_h, input_w_, input_h_);
 

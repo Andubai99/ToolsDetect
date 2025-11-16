@@ -146,11 +146,26 @@ CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.s"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\ToolsDetect\src\inventory_compare.cpp -o CMakeFiles\toolsdetect_test.dir\src\inventory_compare.cpp.s
 
+CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj: CMakeFiles/toolsdetect_test.dir/flags.make
+CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj: CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp
+CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj: F:/ToolsDetect/src/session_runner.cpp
+CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj: CMakeFiles/toolsdetect_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\ToolsDetect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj -MF CMakeFiles\toolsdetect_test.dir\src\session_runner.cpp.obj.d -o CMakeFiles\toolsdetect_test.dir\src\session_runner.cpp.obj -c F:\ToolsDetect\src\session_runner.cpp
+
+CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\ToolsDetect\src\session_runner.cpp > CMakeFiles\toolsdetect_test.dir\src\session_runner.cpp.i
+
+CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\ToolsDetect\src\session_runner.cpp -o CMakeFiles\toolsdetect_test.dir\src\session_runner.cpp.s
+
 CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj: CMakeFiles/toolsdetect_test.dir/flags.make
 CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj: CMakeFiles/toolsdetect_test.dir/includes_CXX.rsp
 CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj: F:/ToolsDetect/src/yoloinfer.cpp
 CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj: CMakeFiles/toolsdetect_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\ToolsDetect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\ToolsDetect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj -MF CMakeFiles\toolsdetect_test.dir\src\yoloinfer.cpp.obj.d -o CMakeFiles\toolsdetect_test.dir\src\yoloinfer.cpp.obj -c F:\ToolsDetect\src\yoloinfer.cpp
 
 CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.i: cmake_force
@@ -168,6 +183,7 @@ toolsdetect_test_OBJECTS = \
 "CMakeFiles/toolsdetect_test.dir/src/logger.cpp.obj" \
 "CMakeFiles/toolsdetect_test.dir/src/detector.cpp.obj" \
 "CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.obj" \
+"CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj" \
 "CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj"
 
 # External object files for target toolsdetect_test
@@ -178,6 +194,7 @@ toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/src/auth.cpp.obj
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/src/logger.cpp.obj
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/src/detector.cpp.obj
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/src/inventory_compare.cpp.obj
+toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/build.make
 toolsdetect_test.exe: D:/opencv/install/x64/mingw/lib/libopencv_highgui480.dll.a
@@ -188,7 +205,7 @@ toolsdetect_test.exe: D:/opencv/install/x64/mingw/lib/libopencv_core480.dll.a
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/linkLibs.rsp
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/objects1.rsp
 toolsdetect_test.exe: CMakeFiles/toolsdetect_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\ToolsDetect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable toolsdetect_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\ToolsDetect\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable toolsdetect_test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\toolsdetect_test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

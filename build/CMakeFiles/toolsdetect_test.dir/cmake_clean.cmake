@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/toolsdetect_test.dir/src/logger.cpp.obj.d"
   "CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj"
   "CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj.d"
+  "CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj"
+  "CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj.d"
   "CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj"
   "CMakeFiles/toolsdetect_test.dir/src/yoloinfer.cpp.obj.d"
   "libtoolsdetect_test.dll.a"

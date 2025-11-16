@@ -14,7 +14,7 @@
 // Default model/runtime configuration.
 inline constexpr int kYoloInputWidth  = 640;
 inline constexpr int kYoloInputHeight = 640;
-inline constexpr float kYoloConfidenceThreshold = 0.25f;
+inline constexpr float kYoloConfidenceThreshold = 0.50f; // 0.25f
 inline constexpr float kYoloNmsThreshold        = 0.45f;
 inline const std::wstring kDefaultModelPath =
     L"F:\\ultralytics-main\\ToolsDetect\\train35\\weights\\best.onnx";

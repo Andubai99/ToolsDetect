@@ -1,5 +1,6 @@
 CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj: \
- F:\ToolsDetect\src\main.cpp D:/opencv/install/include/opencv2/opencv.hpp \
+ F:\ToolsDetect\src\main.cpp F:\ToolsDetect\src\opencv_config.h \
+ D:/opencv/install/include/opencv2/opencv.hpp \
  D:/opencv/install/include/opencv2/opencv_modules.hpp \
  D:/opencv/install/include/opencv2/core.hpp \
  D:/opencv/install/include/opencv2/core/cvdef.h \
@@ -241,12 +242,17 @@ CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj: \
  D:/opencv/install/include/opencv2/imgproc.hpp \
  D:/opencv/install/include/opencv2/imgproc/segmentation.hpp \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+ F:\ToolsDetect\src\auth.h F:\ToolsDetect\src\logger.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iomanip \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/locale \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets_nonio.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets_nonio.tcc \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_conv.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
@@ -254,15 +260,10 @@ CMakeFiles/toolsdetect_test.dir/src/main.cpp.obj: \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/quoted_string.h \
- F:\ToolsDetect\src\auth.h F:\ToolsDetect\src\logger.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
- D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
  F:\ToolsDetect\src\vision_pipeline.h \
  F:\ToolsDetect\src\inventory_compare.h F:\ToolsDetect\src\detector.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
- F:\ToolsDetect\src\alert.h
+ F:\ToolsDetect\src\alert.h F:\ToolsDetect\src\session_runner.h

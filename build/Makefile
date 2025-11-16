@@ -248,6 +248,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/session_runner.obj: src/session_runner.cpp.obj
+.PHONY : src/session_runner.obj
+
+# target to build an object file
+src/session_runner.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.obj
+.PHONY : src/session_runner.cpp.obj
+
+src/session_runner.i: src/session_runner.cpp.i
+.PHONY : src/session_runner.i
+
+# target to preprocess a source file
+src/session_runner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.i
+.PHONY : src/session_runner.cpp.i
+
+src/session_runner.s: src/session_runner.cpp.s
+.PHONY : src/session_runner.s
+
+# target to generate assembly for a file
+src/session_runner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toolsdetect_test.dir\build.make CMakeFiles/toolsdetect_test.dir/src/session_runner.cpp.s
+.PHONY : src/session_runner.cpp.s
+
 src/yoloinfer.obj: src/yoloinfer.cpp.obj
 .PHONY : src/yoloinfer.obj
 
@@ -296,6 +320,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/session_runner.obj
+	@echo ... src/session_runner.i
+	@echo ... src/session_runner.s
 	@echo ... src/yoloinfer.obj
 	@echo ... src/yoloinfer.i
 	@echo ... src/yoloinfer.s
