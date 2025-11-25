@@ -13,4 +13,6 @@ void runBeforeAfterSessions(Logger& logger,
                             const std::string& resultsDir);
 
 // Streams detections over a video file if the build has videoio/highgui.
-void runVideoDetection(const std::string& videoPath);
+// Runs a video detection loop on the provided path. Returns true if the video
+// stream was opened and processed, false otherwise (e.g., invalid path).
+bool runVideoDetection(const std::string& videoPath);
