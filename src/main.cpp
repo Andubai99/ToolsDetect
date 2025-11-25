@@ -96,17 +96,33 @@ int main() {
 
     if (useVideoMode) {
         std::string videoPath;
-        std::cout << "Enter video file path (e.g., data/video.mp4): ";
-        if (!std::getline(std::cin, videoPath)) {
-            std::cerr << "[ERROR] Input stream closed before video path. Exiting.\n";
-            return 1;
-        }
-        if (videoPath.empty()) {
-            videoPath = "video.mp4";
-            std::cout << "[INFO] Using default video path: " << videoPath << "\n";
+        while (true) {
+            std::cout << "Enter video file path (e.g., data/video.mp4): ";
+            if (!std::getline(std::cin, videoPath)) {
+                std::cerr << "[ERROR] Input stream closed before video path. Exiting.\n";
+                return 1;
+            }
+            if (videoPath.empty()) {
+                videoPath = "video.mp4";
+                std::cout << "[INFO] Using default video path: " << videoPath << "\n";
+            }
+
+            if (runVideoDetection(videoPath)) {
+                break;
+            }
+
+            std::cout << "[WARN] Unable to start video detection.\n"
+                      << "Enter a new path to retry or press ENTER to quit video mode.\n";
+            std::string retry;
+            if (!std::getline(std::cin, retry) || retry.empty()) {
+                std::cout << "[INFO] Exiting video mode.\n";
+                std::cout << "[INFO] System shutdown.\n";
+                return 0;
+            }
+            // Use the new path on the next loop iteration.
+            videoPath = retry;
         }
 
-        runVideoDetection(videoPath);
         std::cout << "[INFO] System shutdown.\n";
         return 0;
     }

@@ -7,11 +7,13 @@
 #include "opencv_config.h"
 
 #include <chrono>
+#include <filesystem>
 #include <ctime>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <vector>
 #include <cmath>
 #include <cerrno>
 
@@ -127,15 +129,56 @@ bool ensureDirectoryExists(const std::string& dir) {
     return false;
 }
 
-void runVideoDetection(const std::string& videoPath) {
-#if TOOLSDETECT_HAS_VIDEOIO && TOOLSDETECT_HAS_HIGHGUI
-    cv::VideoCapture cap(videoPath);
-    if (!cap.isOpened()) {
-        std::cerr << "[ERROR] Failed to open video: " << videoPath << "\n";
-        return;
+std::filesystem::path resolveVideoPath(const std::string& videoPath) {
+    namespace fs = std::filesystem;
+
+    fs::path path = videoPath;
+    if (path.is_absolute()) {
+        return path;
     }
 
-    std::cout << "[INFO] Starting video detection on " << videoPath
+    // Try the provided relative path, then search upward for common layouts
+    // such as running from the CMake build directory (../data/video.mp4).
+    std::vector<fs::path> searchRoots{fs::current_path()};
+    fs::path parent = fs::current_path().parent_path();
+    if (!parent.empty()) {
+        searchRoots.push_back(parent);
+        if (!parent.parent_path().empty()) {
+            searchRoots.push_back(parent.parent_path());
+        }
+    }
+
+    for (const auto& root : searchRoots) {
+        fs::path candidate = root / path;
+        if (fs::exists(candidate)) {
+            return candidate;
+        }
+    }
+
+    return path;  // Fall back to the original relative path for error reporting.
+}
+
+bool runVideoDetection(const std::string& videoPath) {
+#if TOOLSDETECT_HAS_VIDEOIO && TOOLSDETECT_HAS_HIGHGUI
+    namespace fs = std::filesystem;
+
+    fs::path resolvedPath = resolveVideoPath(videoPath);
+
+    if (!fs::exists(resolvedPath)) {
+        std::cerr << "[ERROR] Video file not found: " << resolvedPath << "\n"
+                  << "[INFO] Current working directory: " << fs::current_path() << "\n"
+                  << "[INFO] If you built with CMake, try '../" << videoPath
+                  << "' from the build directory or use an absolute path.\n";
+        return false;
+    }
+
+    cv::VideoCapture cap(resolvedPath.string());
+    if (!cap.isOpened()) {
+        std::cerr << "[ERROR] Failed to open video: " << resolvedPath << "\n";
+        return false;
+    }
+
+    std::cout << "[INFO] Starting video detection on " << resolvedPath
               << ". Press 'q' to exit video mode.\n";
 
     const std::string windowName = "Video Detection";
@@ -163,10 +206,12 @@ void runVideoDetection(const std::string& videoPath) {
     }
 
     cv::destroyWindow(windowName);
+    return true;
 #else
     (void)videoPath;
     std::cerr << "[ERROR] Video mode is unavailable "
                  "(OpenCV videoio/highgui not found at build time).\n";
+    return false;
 #endif
 }
 
