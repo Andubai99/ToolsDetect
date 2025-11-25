@@ -127,12 +127,12 @@ bool ensureDirectoryExists(const std::string& dir) {
     return false;
 }
 
-void runVideoDetection(const std::string& videoPath) {
+bool runVideoDetection(const std::string& videoPath) {
 #if TOOLSDETECT_HAS_VIDEOIO && TOOLSDETECT_HAS_HIGHGUI
     cv::VideoCapture cap(videoPath);
     if (!cap.isOpened()) {
         std::cerr << "[ERROR] Failed to open video: " << videoPath << "\n";
-        return;
+        return false;
     }
 
     std::cout << "[INFO] Starting video detection on " << videoPath
@@ -163,10 +163,12 @@ void runVideoDetection(const std::string& videoPath) {
     }
 
     cv::destroyWindow(windowName);
+    return true;
 #else
     (void)videoPath;
     std::cerr << "[ERROR] Video mode is unavailable "
                  "(OpenCV videoio/highgui not found at build time).\n";
+    return false;
 #endif
 }
 
